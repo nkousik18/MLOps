@@ -78,12 +78,12 @@ Now that we have our virtual environment set up, the GitHub repository created, 
     ```
     git push origin main
     ```
-## Step 3: Creating calculator.py in src Folder
-- In this step, we create a Python script named calculator.py within the src folder of your project. This script contains a set of mathematical functions designed to perform basic arithmetic operations.
-- fun1(x, y) adds two input numbers, x and y.
-- fun2(x, y) subtracts y from x.
-- fun3(x, y) multiplies x and y.
-- fun4(x, y) combines the results of the above functions and returns their sum.
+## Step 3: Creating bmi_calculator.py in the src Folder
+- In this step, we create a Python script named bmi_calculator.py within the src folder of your project. This script contains a set of functions designed to calculate and interpret the Body Mass Index (BMI) for a person based on their weight and height.
+- calculate_bmi(weight_kg, height_m) — Calculates the BMI value using the formula BMI = weight / height² and returns it rounded to two decimal places.
+- bmi_category(bmi) — Determines the BMI category (Underweight, Normal, Overweight, or Obese) based on the calculated BMI value.
+- bmi_category(bmi) — Determines the BMI category (Underweight, Normal, Overweight, or Obese) based on the calculated BMI value.
+- health_advice(bmi) — Provides simple health advice depending on the BMI category (e.g., maintain lifestyle, improve diet, consult a doctor, etc.).
 - To view the code and gain a deeper understanding, please refer to the calculator.py file located under the src folder in this [link](https://github.com/raminmohammadi/MLOps/blob/main/src/lab1/calculator.py).
 
 > **Note:** <br>
@@ -91,7 +91,7 @@ Whenever you want to push files to your repository follow this step
 [Adding and Pushing Your Project Code to GitHub](#adding-and-pushing-your-project-code-to-github)
 
 ## Step 4: Creating tests using Pytest and Unittests
-- In this step, we'll set up unit tests for the functions in our calculator.py script using two popular testing frameworks: [pytest](https://docs.pytest.org/en/7.4.x/) and [unittest](https://docs.python.org/3/library/unittest.html). Unit testing ensures that individual components of your code work as expected, helping you catch and fix bugs early in the development process.
+- In this step, we'll set up unit tests for the functions in our bmi_calculator.py script using two popular testing frameworks: [pytest](https://docs.pytest.org/en/7.4.x/) and [unittest](https://docs.python.org/3/library/unittest.html). Unit testing ensures that individual components of your code work as expected, helping you catch and fix bugs early in the development process.
 
 **Using Pytest** <br>
 - Installation (if not already installed):
@@ -132,6 +132,8 @@ Whenever you want to push files to your repository follow this step
 - **Events:** These are specific activities that occur within your GitHub repository, such as code pushes, pull requests, or issue comments. GitHub Actions can respond to these events.
 - **Actions:** Actions are individual tasks or steps that you define in a workflow file. These tasks can be anything from building your code to running tests or deploying your application.
 - **Triggers:** Triggers are conditions that cause a workflow to run. They can be based on events (e.g., a new pull request) or scheduled to run at specific times.
+
+- 
 
 **The Purpose of GitHub Actions:** <br>
 

@@ -344,7 +344,7 @@ app-airflow-webserver-1 | 127.0.0.1 - - [17/Feb/2023:09:34:29 +0000] "GET /healt
 - Once the DAG completes its execution, check any output or artifacts produced by your functions and tasks. 
 
 ### 📊 DAG Graph View
-![DAG Graph](assets/dag_graph_view.png)
+![DAG Graph](../assets/wine_dag_graph.png)
 
 ### ✅ Successful DAG Run
-![DAG Run](assets/dag_run_success.png)
+![DAG Run](../assets/wine_quality_gridview.png)

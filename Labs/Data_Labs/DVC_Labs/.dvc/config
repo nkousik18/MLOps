@@ -1,6 +1,4 @@
 [core]
-    no_scm = True
-    analytics = false
     remote = myremote
 ['remote "myremote"']
     url = gs://mlops_dvc_labs_1

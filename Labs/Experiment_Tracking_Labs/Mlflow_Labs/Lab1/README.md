@@ -99,13 +99,15 @@ This allows comparison across architectures, preprocessing, and hyperparameters.
 
 Lower = better.
 
-![RMSE Chart](attachment\:rmse_plot)
+![RMSE comparision](RMSE_comparision.png)
+
 
 ### **R² Comparison**
 
 Higher = better.
 
-![R2 Chart](attachment\:r2_plot)
+![R² Comparison](R_square_comparision.png)
+
 
 ---
 
@@ -146,6 +148,7 @@ The MLflow UI clearly displays:
 * Artifacts for each model
 * Run-by-run comparison
 
+![MLflow_Interface](MLflow_interface.png)
 
 ---
 
